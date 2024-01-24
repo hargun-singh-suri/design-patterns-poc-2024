@@ -4,23 +4,22 @@ public class CoffeeShop {
 
 	public static void main(String args[]) {
 
-		// espresso
-		CoffeeFactory espressoCreator = new EspressoCreator();
-		Coffee espresso = espressoCreator.createCoffee();
-		espresso.prepare();
-
-		CoffeeFactory latteCreator = new LatteCreator();
-		Coffee latte = latteCreator.createCoffee();
-		latte.prepare();
-
-		/**
-		 * Output
-		 * 
-		 * Prepare Espresso
-		 * 
-		 * Prepare Latte
-		 * 
-		 */
+		CoffeeFactory coffeeFactory = getCoffeeFactoryInstance(CoffeeType.CAPPICINO);
+		coffeeFactory.createCoffee().prepare();
 	}
+
+	private static CoffeeFactory getCoffeeFactoryInstance(CoffeeType coffeeType) {
+		return switch (coffeeType) {
+		case ESPRESSO -> new EspressoCreator();
+		case LATTE -> new LatteCreator();
+		case CAPPICINO -> new CappuccinoCreator();
+		};
+	}
+
+	/**
+	 * Output
+	 * 
+	 * Prepare Cappuccino
+	 */
 
 }
