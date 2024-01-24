@@ -1,4 +1,4 @@
-package com.hargun.dp.creational.factory.abstractfactory.cofee;
+package com.hargun.dp.creational.abstractfactory.cofee;
 
 public class Latte implements Coffee {
 

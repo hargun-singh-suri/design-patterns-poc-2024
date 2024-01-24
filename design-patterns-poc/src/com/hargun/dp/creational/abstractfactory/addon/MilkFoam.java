@@ -1,4 +1,4 @@
-package com.hargun.dp.creational.factory.abstractfactory.addon;
+package com.hargun.dp.creational.abstractfactory.addon;
 
 public class MilkFoam implements CoffeeAddOn {
 
