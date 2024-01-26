@@ -1,4 +1,4 @@
-package com.hargun.dp.creational.abstractfactory;
+package com.hargun.dp.creational.abstractfactory.coffeeexample;
 
 /**
  * Abstract Factory Pattern is a creational design pattern that provides an

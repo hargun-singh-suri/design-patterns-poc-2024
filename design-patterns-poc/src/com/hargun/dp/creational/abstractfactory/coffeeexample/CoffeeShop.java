@@ -1,11 +1,11 @@
-package com.hargun.dp.creational.abstractfactory;
+package com.hargun.dp.creational.abstractfactory.coffeeexample;
 
-import com.hargun.dp.creational.abstractfactory.addon.ChocoSyrupCreator;
-import com.hargun.dp.creational.abstractfactory.addon.CoffeeAddOnFactory;
-import com.hargun.dp.creational.abstractfactory.addon.MilkFoamCreator;
-import com.hargun.dp.creational.abstractfactory.cofee.CoffeeFactory;
-import com.hargun.dp.creational.abstractfactory.cofee.EspressoCreator;
-import com.hargun.dp.creational.abstractfactory.cofee.LatteCreator;
+import com.hargun.dp.creational.abstractfactory.coffeeexample.addon.ChocoSyrupCreator;
+import com.hargun.dp.creational.abstractfactory.coffeeexample.addon.CoffeeAddOnFactory;
+import com.hargun.dp.creational.abstractfactory.coffeeexample.addon.MilkFoamCreator;
+import com.hargun.dp.creational.abstractfactory.coffeeexample.cofee.CoffeeFactory;
+import com.hargun.dp.creational.abstractfactory.coffeeexample.cofee.EspressoCreator;
+import com.hargun.dp.creational.abstractfactory.coffeeexample.cofee.LatteCreator;
 
 public class CoffeeShop {
 

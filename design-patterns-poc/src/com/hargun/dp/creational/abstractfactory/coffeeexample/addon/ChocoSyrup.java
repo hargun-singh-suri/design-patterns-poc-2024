@@ -1,4 +1,4 @@
-package com.hargun.dp.creational.abstractfactory.addon;
+package com.hargun.dp.creational.abstractfactory.coffeeexample.addon;
 
 public class ChocoSyrup implements CoffeeAddOn {
 
