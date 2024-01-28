@@ -1,4 +1,4 @@
-package com.hargun.dp.creational.builder.manufacturingsystemexample;
+package com.hargun.dp.creational.builder.manufacturingsystem_example;
 
 import java.util.HashSet;
 import java.util.Set;
